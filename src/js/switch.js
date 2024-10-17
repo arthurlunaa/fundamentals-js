@@ -10,7 +10,7 @@ switch (true) {
             case nota >=4 && nota <= 6:
             console.log('recuperação')
             break
-            case nota  <=3 :
+            case nota >=0 && nota <=3 :
             console.log('reprovado')
             break
             
