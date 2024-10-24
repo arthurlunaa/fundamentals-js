@@ -47,10 +47,11 @@ const products = [{
   //  console.log(product.name + ' Custa '+ product.price + ' Reais ')
 //}
  // soma todos 
- let total = 0
- for (let product of products) {
-    total += product.price
-    console.log(' A soma total dos produtos é ' + total + ' reais ')
+ //let total = 0
+ //for (let product of products) {
+    //total = total + product.price
+   // total += product.price
+    //console.log(' A soma total dos produtos é ' + total + ' reais ')
    
     
- }
+ //}
