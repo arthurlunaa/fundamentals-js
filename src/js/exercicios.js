@@ -36,6 +36,26 @@
 //}
 //Exercício 6: Imprimir números de 10 a 1 (contagem regressiva)
 //Crie um loop que imprima os números de 10 até 1.
-for(i = 0; i <=10; i -1 ){
-       console.log(i)
-}
+//for(i = 0; i <=10; i -1 ){
+//       console.log(i)
+//}
+//Exercício 7: Encontrar o maior número em um array
+//Dado um array de números, use um loop para encontrar e imprimir o maior número.
+//let number = 0 
+//for (let i = 1; i < number; i++) {
+ // if (i > num) {
+  //  number = i;
+   // const numeros = [10, 5, 8, 22, 17, 6];
+   // console.log(`O maior número é: ${encontrarMaiorNumero(numeros)}`);
+ // }
+//}
+//Exercício 8: Contar números ímpares entre 1 e 50
+//Crie um loop que conte quantos números ímpares existem entre 1 e 50 e imprima o resultado.
+//let total = 0
+//for (let i = 1; i <= 50; i += 2) {
+ // console.log(i);
+  //total++;
+//}
+//console.log(`Existem um total de números ímpares de. `+ total);
+//Exercício 9: Imprimir a tabuada de um número
+//Dado um número, use um loop para imprimir a tabuada desse número (de 1 a 10).
