@@ -63,3 +63,11 @@
 //for (let i = 1; i <= 10; i++) {
   //console.log(numero + " x " + i + " = " + (numero * i));
 //}
+//Exercício 10: Reverter uma string
+//Dada uma string, use um loop para imprimi-la de trás para frente.
+//let string = "amor"
+//let reverte = ""
+//for (let i = string.length - 1; i >= 0; i--) {
+//   reverte += string[i]
+ //  console.log(reverte);
+//}
