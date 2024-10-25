@@ -46,7 +46,7 @@
  // if (i > num) {
   //  number = i;
    // const numeros = [10, 5, 8, 22, 17, 6];
-   // console.log(`O maior número é: ${encontrarMaiorNumero(numeros)}`);
+   // console.log(`O maior número é: +number `);
  // }
 //}
 //Exercício 8: Contar números ímpares entre 1 e 50
@@ -59,3 +59,7 @@
 //console.log(`Existem um total de números ímpares de. `+ total);
 //Exercício 9: Imprimir a tabuada de um número
 //Dado um número, use um loop para imprimir a tabuada desse número (de 1 a 10).
+//let numero = 1;
+//for (let i = 1; i <= 10; i++) {
+  //console.log(numero + " x " + i + " = " + (numero * i));
+//}
