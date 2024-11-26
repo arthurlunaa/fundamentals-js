@@ -3,6 +3,8 @@
 //}
 //Saudacao()
 
+const { name } = require("server/plugins/socket")
+
 //function Somar(numOne, numTwo) {
 //    return numOne + numTwo
 //}
@@ -61,11 +63,43 @@
 //} 
 //console.log(ParImpar(2))
 
-function ShortName (fullName){
+//function ShortName (fullName){
     
-    const splitName = fullName.split(" ")
-    const [firstName, ...rest ] = splitName
-    const lastName = rest[rest.length -1]
-    return console.log(`${firstName} ${lastName}`)
-}
-ShortName ('Arthur henrique nazare Luna')
+   // const splitName = fullName.split(" ")
+    // [ 'Arthur' , 'henrique' , 'luns']
+   // const [firstName, ...rest ] = splitName
+    // [1,2,3,4 = [1, ... rest]= [1,2,3]]
+   // const lastName = rest[rest.length -1]
+  //  //
+ //   return console.log(`${firstName} ${lastName}`)
+//}
+//ShortName ('Arthur henrique nazare Luna')
+
+//const nam = 'Cristiano Ronaldo junior'
+//const transform = nam.split(' ')
+
+//const [first , ...rest] = transform
+
+//console.log(transform)
+//console.log(first)
+//console.log(rest)
+
+//function TrueFalse(bool){
+//    if (bool === true) {
+//       return 'yes'
+//    }
+//    else {
+//        return'no'
+//    }
+//}
+//console.log(TrueFalse(true))
+
+//function TrueFalse(bool){
+//    return bool ? 'yes' : 'no'
+//} 
+//console.log(TrueFalse(true))
+
+//function age (idade){
+ //   return idade >= 18 ? 'maior de idade' :'menor de idade'
+//}
+//console.log(age(17)) 
