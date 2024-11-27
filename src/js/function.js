@@ -3,7 +3,7 @@
 //}
 //Saudacao()
 
-const { name } = require("server/plugins/socket")
+//const { name } = require("server/plugins/socket")
 
 //function Somar(numOne, numTwo) {
 //    return numOne + numTwo
@@ -120,3 +120,7 @@ function camisa (preços ){
 
 }
 console.log(camisa(31))
+
+const splitName(fullName){
+  
+}
