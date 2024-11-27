@@ -103,3 +103,16 @@ const { name } = require("server/plugins/socket")
  //   return idade >= 18 ? 'maior de idade' :'menor de idade'
 //}
 //console.log(age(17)) 
+
+
+//const exampleAnomino = function () {
+  //  console.log('funçao anomina')
+//}
+//exampleAnomino()
+
+//const arrwFunction = () => {
+  //   return console.log('arrow function')
+//} 
+////arrwFunction() 
+
+function camisa (preços )
