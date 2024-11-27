@@ -116,7 +116,7 @@ const { name } = require("server/plugins/socket")
 ////arrwFunction() 
 
 function camisa (preços ){
-  return preços >= 49 ? 'esta na black friday' : 'produdo fora de promação '
+  return preços >= 49 ? 'esta na black friday' <=30 : 'produdo for de promação '
 
 }
-console.log(camisa(50))
+console.log(camisa(31))
