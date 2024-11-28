@@ -116,7 +116,7 @@
 ////arrwFunction() 
 
 function camisa (preços ){
-  return preços >= 49 ? 'esta na black friday' <=30 : 'produdo for de promação '
+  return preços >= 49 ? 'esta na black friday' ===34 : 'produdo for de promação '
 
 }
 console.log(camisa(31))
