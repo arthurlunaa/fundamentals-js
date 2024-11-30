@@ -1,5 +1,5 @@
 function paImc(peso, altura){
-    const Imc = peso / (altura * altura);
+    const Imc = peso / (altura *2 );
     let classificacao;
     
     if (Imc < 18.5) {
@@ -13,6 +13,7 @@ function paImc(peso, altura){
     }
     
     
- 
+    
+ console.log (`IMC: ${Imc.toFixed(2)} | classificacao: ${classificacao}`);
 }
-paImc (104 , 1,85);
+paImc (82 , 1,55);
