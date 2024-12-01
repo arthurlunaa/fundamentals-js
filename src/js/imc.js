@@ -16,4 +16,4 @@ function paImc(peso, altura){
     
  console.log (`IMC: ${Imc.toFixed(2)} | classificacao: ${classificacao}`);
 }
-paImc (82 , 1,55);
+paImc (  82 , 1,55);
