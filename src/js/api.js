@@ -1,9 +1,8 @@
 
-
-function getCep (cep) {
-    fetch (`https://viacep.com.br/ws/${cep}/json/`)
+function getPokemom (pokemom) {
+    fetch (`https://pokeapi.co/api/v2/pokemon/${pokemom}`)
     .then (res => res.json())
     .then(data => console.log(data))
     .catch(error => console.error('Error' , error))
 }
-getCep('05869220')
+getPokemom('pikachu')
