@@ -2,17 +2,19 @@
 function getPokemom (pokemom) {
     fetch (`https://pokeapi.co/api/v2/pokemon/${pokemom}`)
     .then (res => res.json())
-    .then(data => {
+    .then((data) => {
        const {name, sprites, weight} = data;
-        const nome = `Nome: ${name}`;
-       const peso = `Peso: ${weight}`;
-        const linkfoto = `Link da foto: ${sprites.front_default}`;
-        console.log(nome);
-        console.log(peso);
-    console.log(linkfoto);
+      
+       const div = document.getElementById('pokemom-info');
+
+       div.innerHTML = `
+        <h2>${name}</h2>
+    <img src="${sprites.front_default}" alt="">
+    <p> ${weight}</p>
+       `
    })
 
    .catch(error => console.error('Error' , error))
 }
-getPokemom('pikachu')
+getPokemom('raichu')
 
