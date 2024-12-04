@@ -9,7 +9,7 @@ function getPokemom (pokemom) {
 
        div.innerHTML = `
         <h2>${name}</h2>
-    <img src="${sprites.front_default}" alt="">
+    <img src="${sprites.front_default}" alt="avatar do pokemom ">
     <p> ${weight}</p>
        `
    })
